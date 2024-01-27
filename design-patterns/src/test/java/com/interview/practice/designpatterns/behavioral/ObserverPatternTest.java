@@ -1,5 +1,9 @@
-package com.interview.practice.designpatterns.behavioral.observer;
+package com.interview.practice.designpatterns.behavioral;
 
+import com.interview.practice.designpatterns.behavioral.observer.KafkaObserver;
+import com.interview.practice.designpatterns.behavioral.observer.MySQLObserver;
+import com.interview.practice.designpatterns.behavioral.observer.Observer;
+import com.interview.practice.designpatterns.behavioral.observer.Subject;
 import org.junit.jupiter.api.Test;
 
 public class ObserverPatternTest {

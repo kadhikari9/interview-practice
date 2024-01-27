@@ -1,4 +1,4 @@
-package com.interview.practice.designpatterns.cos;
+package com.interview.practice.designpatterns.behavioral;
 
 import com.interview.practice.designpatterns.behavioral.cor.*;
 import org.junit.jupiter.api.Test;

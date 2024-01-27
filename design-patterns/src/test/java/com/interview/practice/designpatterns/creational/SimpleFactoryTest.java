@@ -1,4 +1,4 @@
-package com.interview.practice.designpatterns.creational.factory;
+package com.interview.practice.designpatterns.creational;
 
 import com.interview.practice.designpatterns.creational.factorymethod.Vehicle;
 import com.interview.practice.designpatterns.creational.simplefactory.SimpleVehicleFactory;

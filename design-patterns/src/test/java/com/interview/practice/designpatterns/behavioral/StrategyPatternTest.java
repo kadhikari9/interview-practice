@@ -1,4 +1,4 @@
-package com.interview.practice.designpatterns.behavioral.strategy;
+package com.interview.practice.designpatterns.behavioral;
 
 import com.interview.practice.designpatterns.behavioral.strategy.*;
 import org.junit.jupiter.api.Test;
