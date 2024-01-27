@@ -10,7 +10,7 @@ public class FactoryMethodTest {
 
     @Test
     public void testFactoryMethod() {
-        String[] vehicleTypes = new String[]{"Electric", "Gas"};
+        String[] vehicleTypes = new String[]{"Sedan", "SUV", "Truck"};
 
         for (String s : vehicleTypes) {
             VehicleFactory factory = new VehicleFactoryImpl();

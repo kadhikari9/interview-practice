@@ -6,8 +6,9 @@ public class VehicleFactoryImpl implements VehicleFactory {
     @Override
     public Vehicle makeVehicle(String type) {
         return switch (type) {
-            case "Electric" -> new TeslaModelX();
-            case "Gas" -> new MadzaCX5();
+            case "Sedan" -> new TeslaModel3();
+            case "SUV" -> new MadzaCX5();
+            case "Truck" -> new ToyotaTundra();
             default -> null;
         };
     }
