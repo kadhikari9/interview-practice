@@ -14,6 +14,19 @@ public class ListToMapLamba {
         groupByDepartment(empList);
 
         groupBySalary(empList);
+
+        findAverageSalaryInEachDep(empList);
+    }
+
+    private static void findAverageSalaryInEachDep(List<Employee> employees) {
+        Map<String, Double> avgMap = employees.stream().collect(Collectors.groupingBy(
+                Employee::getDep,
+                Collectors.mapping(val -> val, Collectors.averagingInt(Employee::getSalary))
+        ));
+
+        for (Map.Entry<String, Double> entry : avgMap.entrySet()) {
+            log.info("Avg salary on dep:{} is:{}", entry.getKey(), entry.getValue());
+        }
     }
 
     private static void groupBySalary(List<Employee> employeesList) {
