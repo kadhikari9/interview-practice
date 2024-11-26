@@ -1,5 +1,4 @@
 package com.test.task.api;
-import com.test.task.dto.Request;
 import com.test.task.dto.Response;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
